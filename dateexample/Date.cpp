@@ -315,7 +315,6 @@ int Date::weekDay()
 		break;
 	case 6:
 		return 7;
-		break;
 	}
 }
 
