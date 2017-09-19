@@ -144,7 +144,7 @@ int Date::daysInYear()
 	int days = 0;
 	switch (getMonth())
 	{
-	case 1 || 2:	days = getDay();
+	case 1 || 2: days = getDay();
 		break;
 	case 2:	days = 31 + getDay();
 		break;
@@ -297,22 +297,16 @@ int Date::weekDay()
 	{
 	case 0:
 		return 1;
-		break;
 	case 1:
 		return 2;
-		break;
 	case 2:
 		return 3;
-		break;
 	case 3:
 		return 4;
-		break;
 	case 4:
 		return 5;
-		break;
 	case 5:
 		return 6;
-		break;
 	case 6:
 		return 7;
 	}
